@@ -1,0 +1,3 @@
+This script showcases the use of many different BST related functions. Edit the test case array to any values if needed. This script will turn the array into a BST, print out the tree in a terminal window, print the nodes in preoder, inorder, and postorder, print tree height, tree balance, minbalance, maxbalance, and is_avl. To understand these functions better, I reccomend reading the comments or code itself.
+
+Simply run pyBST.py in a terminal to view test output.
