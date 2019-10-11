@@ -2,4 +2,4 @@ Memory manager simulation. Program allows initalizing an amount of memory and al
 
 Running the program will print out a series of test initalizations, allocations, deallocations, list printing, etc. You may edit the test cases in main if needed.
 
-Tested on Linux only. Simply call 'make' to create an executable file, or compile all three .cpp files to create application.
+Tested on Linux only. Simply call 'make' to create an executable file, or compile all three .cpp files (c++ std 11) to create application.
