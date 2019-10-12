@@ -19,10 +19,12 @@ void heapify(vector<int> &arr, int i)
     int left = (2*i)+1;
     int right = (2*i)+2;
 
-    if(arr[left] > arr[largest])
+    int n =arr.size();
+
+    if(left < n && arr[left] > arr[largest])
         largest = left;
 
-    if(arr[right] > arr[largest])
+    if(right < n && arr[right] > arr[largest])
         largest = right;
     
     if(largest != i)
